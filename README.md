@@ -6,7 +6,7 @@ Mappingue est un petit programme servant a *mapper*<sup>1</sup> basiquement mais
 
 #Téléchargement
 
-En cliquant sur "Download Zip" à droite, ou bien en cliquant [ICI] (https://github.com/nioudelit/Mappingue/archive/master.zip)
+Bien que le programme n'est pas entièrement achevé, en cliquant sur "Download Zip" à droite, ou bien en cliquant [ICI] (https://github.com/nioudelit/Mappingue/archive/master.zip) vous pourrez l'acquérir et commencer à faire mususe avec.
 
 ## Utilisation
 
