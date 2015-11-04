@@ -33,6 +33,11 @@ int numero;
 int defX = 160;
 int defY = 120;
 
+boolean effet = false;
+//// a faire seuils PARAMETRABLE
+int seuilBlanc = 200;
+int seuilNoir = 127;
+
 void settings(){
   //size(1280, 720, P2D);
   fullScreen(P2D, 1);
@@ -44,7 +49,7 @@ void setup(){
   for(int i = 0; i < cameras.length; i++){
     println( i + "    " + cameras[i]);
   }
-  video = new Capture(this, cameras[3]);
+  video = new Capture(this, defX, defY, cameras[0]);
   video.start();
   souris = new PVector(0, 0);
   
@@ -84,9 +89,26 @@ void draw(){
   souris.x = mouseX;
   souris.y = mouseY;
   
+  seuilBlanc = int(map(mouseX, 0, width, 0, 255));
+  
   //ACQUISITION
   if(video.available()){
     video.read();
+    if(effet){
+      video.loadPixels();
+      for(int i = 0; i < video.pixels.length; i++){
+        if(red(video.pixels[i]) > seuilBlanc 
+        && green(video.pixels[i]) > seuilBlanc
+        && blue(video.pixels[i]) > seuilBlanc){
+          video.pixels[i] = color(0);
+        } else if(red(video.pixels[i]) < seuilNoir 
+        && green(video.pixels[i]) < seuilNoir
+        && blue(video.pixels[i]) < seuilNoir){
+          video.pixels[i] = color(255);
+        }
+      }
+      video.updatePixels();
+    }
   }
   
   for(int i = 0; i < surface.size(); i++){
@@ -100,17 +122,7 @@ void draw(){
         }
       }
     }
-    //if(keyPressed){
-    //  if(key == 's'){
-    //   output.println(surf.positions());
-    //   fill(10, 150, 10);
-    //   rect(0, 0, width, height);
-    // }
-    // if(key == 'S'){
-    //   output.flush();
-    //   output.close();
-    // }
-    //}
+    
     surf.deplacerPoints();
     surf.deplacer(i);
   }
@@ -135,6 +147,9 @@ void keyReleased(){
      if(curseur < surface.size() - 1){
        curseur += 1;
      }
+   }
+   if(key == 'e' || key == 'E'){
+     effet =! effet;
    }
    //ECRITURE SAUVEGARDE
    if(key == 's'){
