@@ -1,8 +1,8 @@
 # Mappingue, programme de mapping vidéo
 
-Mappingue est un petit programme servant a *mapper* ^^1^^ basiquement mais raaaaaaaapiiiiiiideeeeeeeemeeeeeeeeeent une ou différentes sources vidéos (initialement issus d'un flux vidéo direct). Il s'utilise actuellement qu'avec des raccourcis clavier et la souris.
+Mappingue est un petit programme servant a *mapper* <sup>1</sup> basiquement mais raaaaaaaapiiiiiiideeeeeeeemeeeeeeeeeent une ou différentes sources vidéos (initialement issus d'un flux vidéo direct). Il s'utilise actuellement qu'avec des raccourcis clavier et la souris.
 
-* ^^1^^ c-a-d disposer plusieurs écrans sur plusieurs surfaces physiques, disposées dans une scénographie, avec une seule source *
+* <sup>1</sup> c-a-d disposer plusieurs écrans sur plusieurs surfaces physiques, disposées dans une scénographie, avec une seule source *
 
 ## Utilisation, Raccourcis 
 
