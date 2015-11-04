@@ -47,7 +47,7 @@ Pour passer en mode AJOUT, il faut appuyer sur la touche "a" du clavier. Le fond
 ### Mode FINALISATION (ou mode projection) !! En travaux !!
 Une fois que tout a été bien calé, vous pouvez appuyer sur la touche "f" du clavier, et la le fond deviendra noir. Pour revenir en mode MODIF, recliquez sur "f". Et l'image apparaitra sur une ou plusieurs surfaces. Pour afficher l'image sur TOUTES les surfaces, appuyez sur "t". Si vous voulez afficher une seule surface sur un écran spécifique, veillez que tous les écrans ne soient pas affichés (par exemple en rappuyant sur "t") et à choisir l'image à afficher en appuyant sur les touches "l" et "m".
 
-En appuyant sur la touche « e » vous pourrez appliquer un effet qui transforme le blanc en noir, et tout ce qui est foncé en blanc. Le seuil se corrige pour l’instant en déplaçant la souris de part en part de l’interface. A revoir.
+En appuyant sur la touche « e » vous pourrez appliquer un effet qui transforme le blanc en noir, et tout ce qui est foncé en blanc. Le seuil se corrige pour l’instant en déplaçant la souris de part en part de l’interface. A revoir (coder les effets en GLSL pour gagner en puissance)…
 
 #### Bientôt: une interface de contrôle ergonomik’ pour gérer l’affichage des vidéos et des effets en direct…
 
@@ -61,6 +61,8 @@ a + clic -- ajouter une surface
 f -- mode finalisation ou retour mode modification
 
 t -- activer ou désactiver toute les surfaces (une ou toute)
+
+e -— effet NOIR/BLANC
 
 l/m -- Selectionner une surface (retour voyant blanc ou numéro)
 

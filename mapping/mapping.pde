@@ -30,8 +30,8 @@ boolean ajout = false;
 int curseur;
 boolean TOUS = false;
 int numero;
-int defX = 160;
-int defY = 120;
+int defX = 160; // 160, 320, 640, 1280
+int defY = 120; // 240, 8
 
 boolean effet = false;
 //// a faire seuils PARAMETRABLE
