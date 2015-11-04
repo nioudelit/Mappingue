@@ -4,11 +4,11 @@ Mappingue est un petit programme servant a *mapper*<sup>1</sup> basiquement mais
 
 *<sup>1</sup>c-a-d disposer plusieurs écrans sur plusieurs surfaces physiques, disposées dans une scénographie, avec une seule source*
 
-#Téléchargement
+##Téléchargement
 
 Bien que le programme n'est pas entièrement achevé, en cliquant sur "Download Zip" à droite, ou bien en cliquant [ICI] (https://github.com/nioudelit/Mappingue/archive/master.zip) vous pourrez l'acquérir et commencer à faire mususe avec.
 
-## Utilisation
+# Utilisation
 
 Il y a trois modes. Un mode **MODIFICATION**, un mode **AJOUT**, et un mode **FINALISATION**. Le mode **SAUVEGARDE** est en cours de réalisation.
 
