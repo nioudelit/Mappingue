@@ -21,16 +21,18 @@ Nous ne pouvons déplacer qu'une seule zone à la fois. Nous ne pourrons déplac
 
 ![GitHub Logo](/img/001.png)
 
-Pour déplacer le voyant de zone à zone, appuyez sur la touche "l" de votre clavier ou la touche "m".
+Pour déplacer le voyant de zone en zone, appuyez sur la touche "l" de votre clavier ou la touche "m".
 
 ![GitHub Logo](/img/002.png)
+
+Notez que le programme vous fait bien comprendre ce que vous etes en train de manipuler. (Les flèches ne sont là qu'a titre illustratif, sachez-le)
 
 ![GitHub Logo](/img/003.png)
 
 Pour déplacer la forme sélectionnée, déplacez la avec les flèches directionnelles du clavier (haut, bas, droite, gauche, mais ça vous le savez, je veux pas faire le papa).
 
 **2. SUPPRIMER**
-Pour supprimer une zone, il suffit de se placer sur le carré noir de la forme à exterminer avec la souris  et à appuyer la touche "x" du clavier.
+Pour supprimer une zone, il suffit de se placer sur le carré noir de la forme à exterminer **avec la souris**  et à appuyer la touche "x" du clavier.
 
 **3. DÉFORMER**
 Il suffit de se placer sur un coin (point rouge) à déformer, le point devient vert et il ne reste plus qu'à cliquer-glisser avec la souris. 
