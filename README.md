@@ -56,7 +56,7 @@ a + clic -- ajouter une surface
 
 f -- mode finalisation ou retour mode modification
 
-t -- afficher toute les surfaces
+t -- activer ou désactiver toute les surfaces (une ou toute)
 
 l/m -- Selectionner une surface (retour voyant blanc ou numéro)
 
@@ -72,4 +72,4 @@ s/S -- sauvegarde (en construction)
 * Effet sur le ou les flux vidéos (incrustation vert, ou blanc)
 * Choix sortie à débugger (sortie vp)
 * Mode sauvegarde
-* MODE FINALISATION & ergonomie : Effets transition (fondus) et ergonomie choix affichage des vidéos moins laborieux --> Faire une petite table de mixage en Arduino ou petit logiciel additionnel pour faciliter la manipulation.
+* MODE FINALISATION & ergonomie : Effets transition (fondus) et ergonomie choix affichage des vidéos moins laborieux --> Faire une petite table de mixage en Arduino ou petit logiciel additionnel pour faciliter la manipulation. POSSIBILITE DE NE RIEN AFFICHER A PRévoir aussi --> effets
