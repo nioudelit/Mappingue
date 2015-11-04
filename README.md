@@ -45,15 +45,19 @@ Une fois que tout a été bien calé, vous pouvez appuyer sur la touche "f" du c
 (tout est en minuscule! PAS DE MAJUSCULE!)
 
 a -- mode ajout
+
 a + clic -- ajouter une surface
 
 f -- mode finalisation ou retour mode modification
+
 t -- afficher toute les surfaces
 
 l/m -- Selectionner une surface (retour voyant blanc ou numéro)
+
 flèches haut/bas/gauche/droite -- déplacer zone courante
 
 x (si curseur positionné sur un carré noir) -- supprimer
+
 s/S -- sauvegarde (en construction)
 
 
