@@ -2,7 +2,11 @@
 
 Mappingue est un petit programme servant a *mapper*<sup>1</sup> basiquement mais raaaaaaaapiiiiiiideeeeeeeemeeeeeeeeeent une ou différentes sources vidéos (initialement issus d'un flux vidéo direct). Il s'utilise actuellement qu'avec des raccourcis clavier et la souris.
 
-*<sup>1</sup> c-a-d disposer plusieurs écrans sur plusieurs surfaces physiques, disposées dans une scénographie, avec une seule source*
+*<sup>1</sup>c-a-d disposer plusieurs écrans sur plusieurs surfaces physiques, disposées dans une scénographie, avec une seule source*
+
+#Téléchargement
+
+En cliquant sur "Download Zip" à droite, ou bien en cliquant [ICI] (https://github.com/nioudelit/Mappingue/archive/master.zip)
 
 ## Utilisation
 
